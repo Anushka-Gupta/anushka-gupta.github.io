@@ -3,6 +3,10 @@ ul.nav li{
     padding-right: 10px;
     background-color: red;
 }
+
+h1 {
+  color: red
+}
 a:link {
 color: white;
 }
