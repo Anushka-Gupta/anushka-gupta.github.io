@@ -15,39 +15,46 @@ a:visited {
 color: gold;
 }
 
-#about_yellow{
+* {
+  font-family: sans-serif;
+  color: black;
+}
+
+
+}
+#kin{
   border: solid black;
   border-width: 3px;
   background-color: #F3D250;
   margin-bottom: 3px;
 }
 
-#about_yellow ul {
+#kin ul {
   color: black;
   font-size: 16px;
   font-weight: bold;
 }
 
-#about_blue{
+#vis{
   border-style: solid;
   border-color: black;
   border-width: 3px;
   background-color: #90CCF4;
 }
 
-#about_blue ul {
+#vis ul {
   color: black;
   font-size: 16px;
   font-weight: bold;
 }
-#about_pink{
+#aud{
   border-style: solid;
   border-color: black;
   border-width: 3px;
   background-color: #F78888;
 }
 
-#about_pink ul {
+#aud ul {
   color: orange;
   font-size: 16px;
   font-weight: bold;
