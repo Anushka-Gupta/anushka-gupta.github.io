@@ -11,20 +11,22 @@ html {
 }
 
 #kin {
-  color: black;
-  background-color:lightblue;
+  background-color:#80CCF4;
 }
 
 #aud {
-  background-color: yellow;
+  background-color: #F3D250;
 }
 
 #vis {
-  background-color: pink;
+  background-color: #F78888;
+}
+
+p{
+  font-size: 14px;
 }
 body {
-  color: blue;
-  margin: 10;
+  margin: 0;
 }
 article,
 aside,
