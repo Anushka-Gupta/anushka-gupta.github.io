@@ -9,6 +9,19 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+#kin {
+  color: black;
+  background-color:lightblue;
+}
+
+#aud {
+  background-color: yellow;
+}
+
+#vis {
+  background-color: pink;
+}
 body {
   color: blue;
   margin: 10;
