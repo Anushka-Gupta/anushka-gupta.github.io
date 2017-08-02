@@ -5,11 +5,20 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
+@font-face { font-family: "Caviar Dreams"; src: url('CaviarDreams.ttf'); }
+@font-face { font-family: "Caviar Dreams"; font-weight: bold; src:
+url('Caviar_Dreams_Bold.ttf'') format('truetype');
+}
+
+#studyskills {
+  font-family: "Caviar Dreams";
+  font-size: 68px;
+  
+}
 #kin {
   background-color:#80CCF4;
 }
@@ -1281,6 +1290,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  font-family: "Caviar Dreams";
 }
 h2,
 .h2 {
@@ -4983,6 +4993,7 @@ a.badge:focus {
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  font-family: "Caviar Dreams";
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -5016,6 +5027,7 @@ a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+    font-family: "Caviar Dreams";
   }
 }
 .thumbnail {
