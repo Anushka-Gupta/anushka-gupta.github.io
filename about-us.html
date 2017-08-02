@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>About Us</title>
   <link href='css/bootstrap.css' rel='stylesheet'>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body style="height:1500px">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+
+      <a class="navbar-brand" href="index.html#about_you">studyskills</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html#about_you">Home</a></li>
+      <li><a href="about-us.html#studyskills">About Us</a></li>
+      <li><a href="results.html#vis">Learning Techniques</a></li>
+      <li><a href="results.html#links">Links</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</nav>
+  <div id="studyskills">
   <div class="container.fluid">
-    <div class='jumbotron'>
       <div class="row">
-        <div class="col-sm-12">
-          <h1 class="text-center"> study skills</h1>
+        <div class="col-sm-12 jumbotron">
+          <div class="text-center">
+            <h1> study skills</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -20,7 +48,8 @@
     <div id="about-us">
       <h2 class="text-center">About Us<br />
         <div class="row">
-          <div class="col-sm-12">
+          <div class<div class="col-sm-2"></div>
+          <div class="col-sm-8">
             <blockquote>
               <p>This website was created by two puzzled students who wanted to
                 understand how to optimise their study period by increasing focus
@@ -34,30 +63,36 @@
                 happiness when we remember something our classmate didn't. And so,
                 we wanted to share this confidence with the rest of the world!</p>
               </blockquote>
-              <div>
+              <div class="col-sm-2"></div>
                 <div class="col-sm-4">
-                    <img src="images/ear.jpg" alt="Auditory" class="img-circle" class="img-responsive" width="100px" height="100px">
-
+                  <a href="results.html#aud">
+                    <img src="images/ear.jpg" alt="Auditory"
+                    class="img-circle" class="img-responsive"
+                    width="100px" height="100px"/>
+                    </a>
                   <blockquote>
                     <footer>Auditory</footer>
                   </blockquote>
                 </div>
-              </div>
               <div class="col-md-4">
-                <div>
-                  <img src="images/hand.png" alt="Kinasthetic" class="img-circle" class="img-responsive" width="100px" height="100px">
+                  <a href="results.html#kin">
+                  <img src="images/hand.png" alt="Kinasthetic"
+                  class="img-circle" class="img-responsive"
+                  width="100px" height="100px"/>
+                </a>
                   <blockquote>
                     <footer>Kinasthetic</footer>
                   </blockquote>
-                </div>
               </div>
               <div class="col-sm-4">
-                <div>
-                  <img src='images/eye.png' alt="Visual" class="img-circle" class="img-responsive"width="100px" height="100px">
+                  <a href="results.html#vis">
+                  <img src='images/eye.png' alt="Visual"
+                  class="img-circle" class="img-responsive"
+                  width="100px" height="100px"/>
+                </a>
                   <blockquote>
                     <footer>Visual</footer>
                   </blockquote>
-                </div>
               </div>
             </div>
           </div>
