@@ -1,9 +1,60 @@
-@font-face { font-family: "Caviar Dreams"; src: url('CaviarDreams.ttf'); }
-
+/*@font-face { font-family: "Caviar Dreams"; src: url('CaviarDreams.ttf'); }
 @font-face { font-family: "Caviar Dreams"; font-weight: bold; src:
 url('Caviar_Dreams_Bold.ttf'') format('truetype');
 }
 
 #studyskills {
   font-family: "Caviar Dreams";
-  font-size: 68px;
+  font-size: 68px;*/
+
+.jumbotron {
+  background-image: url("../images/lines.jpg");
+  background-image: cover;
+  color: white;
+  font-weight: impact;
+  /* background-color: #060; */
+}
+
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+}
+a:link {
+color: #F3D250;
+}
+
+a:visited {
+color: gold;
+}
+
+#kin h2{
+  background-color: #F3D250;
+  margin-bottom: 3px;
+}
+
+#kin ul {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#vis h2{
+  border-width: 3px;
+  background-color: #90CCF4;
+}
+
+#vis ul {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+#aud h2{
+  border-width: 3px;
+  background-color: #F78888;
+}
+
+#aud ul {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
