@@ -1,0 +1,9 @@
+@font-face { font-family: "Caviar Dreams"; src: url('CaviarDreams.ttf'); }
+
+@font-face { font-family: "Caviar Dreams"; font-weight: bold; src:
+url('Caviar_Dreams_Bold.ttf'') format('truetype');
+}
+
+#studyskills {
+  font-family: "Caviar Dreams";
+  font-size: 68px;

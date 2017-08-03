@@ -9,22 +9,6 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
-#kin {
-  background-color:#80CCF4;
-}
-
-#aud {
-  background-color: #F3D250;
-}
-
-#vis {
-  background-color: #F78888;
-}
-
-p{
-  font-size: 14px;
-}
 body {
   margin: 0;
 }
