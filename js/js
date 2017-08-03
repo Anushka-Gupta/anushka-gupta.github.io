@@ -1,0 +1,9 @@
+<script src="js/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="css/stylesjs.css">
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
